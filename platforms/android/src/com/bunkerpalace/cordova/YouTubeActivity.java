@@ -35,6 +35,7 @@ public class YouTubeActivity extends YouTubeBaseActivity implements YouTubePlaye
         if (!wasRestored) {
             player.loadVideo(videoId);
             player.setPlayerStateChangeListener(this);
+            player.setFullscreen(false);
         }
     }
 
