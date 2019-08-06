@@ -1,14 +1,14 @@
-#Cordova YoutubeVideoPlayer Plugin
+# Cordova YoutubeVideoPlayer Plugin
 
 **Play Youtube Videos in a native Video Player on Android &amp; iOS.**
 
 **This fork works on Android 6, and does not force landscape mode on Android.**
 
 
-iOS plugin uses **XCDYouTubeKit** by Cédric Luthi:  
+iOS plugin uses **XCDYouTubeKit** by Cédric Luthi:
 https://github.com/0xced/XCDYouTubeKit
 
-Android version (up to 4.4) uses **OpenYoutubeActivity** by Keyes Labs:  
+Android version (up to 4.4) uses **OpenYoutubeActivity** by Keyes Labs:
 https://code.google.com/p/android-youtube-player
 
 Android version (5.0+) uses YouTube Android Player API:
@@ -17,13 +17,13 @@ https://developers.google.com/youtube/android/player/reference/com/google/androi
 Android with YouTube App Version 111662130 requires a workaround to resolve an App issue:
 https://code.google.com/p/gdata-issues/issues/detail?id=8244
 
-##Installation
+## Installation
 
 ```sh
-cordova plugin add https://github.com/JonSmart/CordovaYoutubeVideoPlayer
+ionic cordova plugin add https://github.com/godhand1607/CordovaYoutubeVideoPlayer
 ```
 
-##Usage
+## Usage
 
 ```javascript
 YoutubeVideoPlayer.openVideo('YOUTUBE_VIDEO_ID', function(result) { console.log('YoutubeVideoPlayer result = ' + result); });
@@ -40,7 +40,7 @@ with your own YouTube Key.
 
 The callback is called when the video window is closed.  (Work in Progress - should be working for IOS).
 
-##Author
+## Author
 
 **Adrien Glitchbone**
 
@@ -53,8 +53,8 @@ The callback is called when the video window is closed.  (Work in Progress - sho
 **trakout**
 + [https://github.com/trakout](https://github.com/trakout)
 
-##License
+## License
 
-CordovaYoutubeVideoPlayer is available under the MIT license. See the [LICENSE](LICENSE) file for more information.  
-XCDYouTubeKit is available under the MIT license.  
-OpenYoutubeActivity is available under the Apache License 2.0.  
+CordovaYoutubeVideoPlayer is available under the MIT license. See the [LICENSE](LICENSE) file for more information.
+XCDYouTubeKit is available under the MIT license.
+OpenYoutubeActivity is available under the Apache License 2.0.
